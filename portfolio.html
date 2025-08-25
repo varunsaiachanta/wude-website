@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Wude Interior & Modular Design Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Wude</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="furniture-shop.html" class="nav-link">Furniture Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="careers.html" class="nav-link">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Discover our diverse collection of design projects that showcase creativity, innovation, and excellence</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filters -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="portfolio-filter active" data-filter="all">All Projects</button>
+                <button class="portfolio-filter" data-filter="residential">Residential</button>
+                <button class="portfolio-filter" data-filter="hospitality">Hospitality</button>
+                <button class="portfolio-filter" data-filter="commercial">Commercial</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-showcase">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Residential Projects -->
+                <div class="portfolio-item residential" data-category="residential">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-home"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Modern Family Villa</h3>
+                        <p>Contemporary interior design with open-concept living spaces and natural materials</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Interior Design</span>
+                            <span class="tag">Residential</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item residential" data-category="residential">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-couch"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Urban Apartment Renovation</h3>
+                        <p>Space optimization through modular design and smart storage solutions</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Modular Design</span>
+                            <span class="tag">Residential</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item residential" data-category="residential">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Garden Terrace House</h3>
+                        <p>Seamless indoor-outdoor living with custom landscape design</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Landscape Design</span>
+                            <span class="tag">Residential</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hospitality Projects -->
+                <div class="portfolio-item hospitality" data-category="hospitality">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Boutique Hotel Lobby</h3>
+                        <p>Luxurious yet welcoming atmosphere with custom furniture and lighting</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Interior Design</span>
+                            <span class="tag">Hospitality</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item hospitality" data-category="hospitality">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Fine Dining Restaurant</h3>
+                        <p>Elegant dining experience with sophisticated interior and ambient lighting</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Interior Design</span>
+                            <span class="tag">Hospitality</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item hospitality" data-category="hospitality">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Wellness Center</h3>
+                        <p>Serene spa environment with natural materials and calming color palettes</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Interior Design</span>
+                            <span class="tag">Hospitality</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commercial Projects -->
+                <div class="portfolio-item commercial" data-category="commercial">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-building"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Corporate Office Space</h3>
+                        <p>Modern workplace design promoting collaboration and productivity</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Interior Design</span>
+                            <span class="tag">Commercial</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item commercial" data-category="commercial">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-store"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Retail Store Concept</h3>
+                        <p>Innovative retail design with modular fixtures and flexible layouts</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Modular Design</span>
+                            <span class="tag">Commercial</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item commercial" data-category="commercial">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Co-working Space</h3>
+                        <p>Flexible work environment with modular furniture and collaborative zones</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Modular Design</span>
+                            <span class="tag">Commercial</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Statistics -->
+    <section class="project-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Wude transformed our home into a beautiful, functional space that perfectly reflects our lifestyle. Their attention to detail and creativity exceeded our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Residential Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The modular design solutions from Wude revolutionized our office space. We now have a flexible, efficient environment that adapts to our changing needs."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <span>Commercial Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Working with Wude was a pleasure from start to finish. They created a stunning hotel lobby that perfectly captures our brand's essence and delights our guests."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Emma Rodriguez</h4>
+                            <span>Hospitality Client</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Inspired by Our Work?</h2>
+            <p>Let's create something extraordinary together for your space.</p>
+            <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wude</h3>
+                    <p>Creating spaces that inspire and transform lives through innovative design solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Interior Design</a></li>
+                        <li><a href="services.html">Modular Design</a></li>
+                        <li><a href="services.html">Furniture Design</a></li>
+                        <li><a href="services.html">Landscape Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Portfolio</h4>
+                    <ul>
+                        <li><a href="portfolio.html">Residential</a></li>
+                        <li><a href="portfolio.html">Hospitality</a></li>
+                        <li><a href="portfolio.html">Commercial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wude. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
